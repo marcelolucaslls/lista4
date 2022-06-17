@@ -20,5 +20,5 @@ while [ $a != "q" ] ; do
 	elif [$a == c ] ; then
 		sed -e 's/[^a-zAZ0-9]/$/g' < $arq;;
 	fi
-
+done
 	
